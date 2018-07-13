@@ -6,18 +6,24 @@
 
 ### 安装
 
+采用`npm`方式安装：
 ```
 $ npm install vue-storages --save
-# OR
+```
+
+或者采用`yarn`方式安装：
+
+```
 $ yarn add vue-storages
 ```
+
 ### 模块导入与配制
 
 ```
 import Vue from 'vue'
-import LsyStorages from 'lsy-storages'
+import VueStorages from 'vue-storages'
 
-Vue.use(LsyStorages, {
+Vue.use(VueStorages, {
     localStorage: true
     sessionStorage: true,
     cookie: true

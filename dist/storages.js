@@ -7,7 +7,6 @@ const LsyCookieName = Symbol('LsyCookieName')
 const version = Symbol('version')
 const expiresTime = Symbol('expiresTime')
 
-
 const getKeysByPrex = Symbol('getKeysByPrex')
 
 const config = {
